@@ -1,0 +1,13 @@
+# --- HARPIA V18.2 CORE DEPENDENCIES ---
+numpy>=1.20.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+requests>=2.25.1
+tqdm>=4.60.0
+
+# --- QUANTUM ORACLE ---
+pennylane>=0.30.0
+
+# --- GRAPHICAL BACKEND (For Pop!_OS/Linux) ---
+# Necessário para a interface Qt5 que o script tenta usar primeiro
+PyQt5>=5.15.0
